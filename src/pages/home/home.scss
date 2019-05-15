@@ -1,12 +1,10 @@
-page-home {
-    
-
-<ion-list>
-  <ion-item *ngFor="let item of items">
-    <ion-thumbnail slot="start">
-      <ion-img [src]="item.src"></ion-img>
-    </ion-thumbnail>
-    <ion-label>{{item.text}}</ion-label>
-  </ion-item>
-</ion-list>
-}
+.one {
+    color: rgb(235, 12, 12);
+    background-color: brown;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+  }
+  
+  
